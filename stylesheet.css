@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 110px 0;
+  text-align: center;
+}
+
+.top-wrapper h1, .top-wrapper p {
+  color: white;
+  opacity: 0.7;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  padding-bottom: 30px;
+}
+
+.top-wrapper .btn-wrapper .btn {
+  opacity: 0.8;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 0.1em;
+  /*ボタンの角*/
+}
+
+.top-wrapper .btn-wrapper .signup {
+  background-color: #239b76;
+}
+
+.top-wrapper .btn-wrapper p {
+  padding: 20px 0;
+}
+
+.top-wrapper .btn-wrapper .facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.top-wrapper .btn-wrapper .twitter {
+  background-color: #55acee;
+}
+
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header .header-logo {
+  padding: 20px 0;
+  width: 124px;
+  float: left;
+}
+
+header .header-login {
+  color: white;
+  float: right;
+  padding: 25px;
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+  height: 580px;
+}
+
+.lesson-wrapper .lesson-message {
+  font-weight: normal;
+  color: #5f5d60;
+  padding: 80px 0 50px 0;
+}
+
+.lesson-wrapper .prog-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+}
+
+.lesson-wrapper .prog-wrapper .prog .prog-img-name {
+  position: relative;
+}
+
+.lesson-wrapper .prog-wrapper .prog .prog-img-name .prog-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+}
+
+.lesson-wrapper .prog-wrapper .prog .prog-text {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+/*# sourceMappingURL=stylesheet.css.map */
