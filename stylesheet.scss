@@ -89,6 +89,9 @@ header{
         padding: 25px;
         height: 65px;
         background-color: rgba(255,255,255,0.3);
+        &:hover{
+            background-color: rgba(255,255,255,0.7);
+        }
     }
 }
 
@@ -148,6 +151,20 @@ header{
                 position: relative;
                 top: 7px;
             }
+        }
+    }
+}
+
+footer{
+    border-top: solid 1px #eee;
+    .footer-logo{
+        padding: 30px 0;
+        img{
+            width: 124px;
+        }
+        p{
+            color: #b3aeb5;
+            font-size: 12px;
         }
     }
 }

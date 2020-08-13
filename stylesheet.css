@@ -100,6 +100,10 @@ header .header-login {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+header .header-login:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 .lesson-wrapper {
   background-color: #f7f7f7;
   text-align: center;
@@ -170,5 +174,22 @@ header .header-login {
           box-shadow: none;
   position: relative;
   top: 7px;
+}
+
+footer {
+  border-top: solid 1px #eee;
+}
+
+footer .footer-logo {
+  padding: 30px 0;
+}
+
+footer .footer-logo img {
+  width: 124px;
+}
+
+footer .footer-logo p {
+  color: #b3aeb5;
+  font-size: 12px;
 }
 /*# sourceMappingURL=stylesheet.css.map */
