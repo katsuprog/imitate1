@@ -29,7 +29,7 @@ a {
 }
 
 .top-wrapper{
-    padding: 180px 0 100px 0;
+    padding: 180px 0 120px 0;
     text-align: center;
     h1,p{
         color:white;
@@ -45,17 +45,11 @@ a {
     }
 
     .btn-wrapper{
-        .btn{
-            opacity: 0.8;
-            color: white;
-            padding: 8px 24px;
-            border-radius: 0.1em;/*ボタンの角*/
-        }
         .signup{
             background-color: #239b76;
         }
         p{
-            padding: 20px 0;
+            padding: 15px 0;
         }
         .facebook{
             background-color: #3b5998;
@@ -64,6 +58,16 @@ a {
         .twitter{
             background-color: #55acee;
         }
+    }
+}
+
+.btn{
+    opacity: 0.8;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 0.1em;/*ボタンの角*/
+    &:hover{
+        opacity: 1;
     }
 }
 
@@ -119,6 +123,30 @@ header{
                 padding-top: 15px;
                 font-size: 13px;
                 color: #b3aeb5;
+            }
+        }
+    }
+}
+
+.message-wrapper{
+    text-align: center;
+    .message-content-wrapper{
+        padding: 80px 0;
+        h2,p{
+            color: #5f5d60;
+            font-weight: normal;
+        }
+        p{
+            padding-bottom: 50px;
+        }
+        .message-btn{
+            background-color: #5dca88;
+            padding: 15px 40px;
+            box-shadow: 0px 7px #1a7940;
+            &:active{
+                box-shadow: none;
+                position: relative;
+                top: 7px;
             }
         }
     }
